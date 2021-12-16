@@ -24,6 +24,11 @@ body{
     grid-row-gap: 20px;
 }
 
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
@@ -85,13 +90,15 @@ nav ul{
 nav ul li{
     display: inline;
     padding: 10px 10px;
+    margin: 10px;
     border-radius: 15px;
-    background-color: aquamarine;
+    background-color: rgb(236, 240, 245);
 }
 
 nav ul li:hover{
     background-color: tomato;
 }
+
 #servicios{
     background-color: aqua;
     grid-area: servicios;
@@ -108,13 +115,13 @@ nav ul li:hover{
     /* background-size: cover, para que se adapte al contenido de la pantalla */ 
 }
 
+
 #subMenu{
     background-color: rgb(7, 27, 51);
     grid-area: subMenu;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap:wrap;
     flex-direction: column;
 }
 
